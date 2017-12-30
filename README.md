@@ -5,6 +5,13 @@ You can find the R package for Sparkler, here : https://github.com/voltek62/Rspa
 ## First, install the package : 
 https://github.com/voltek62/RsparkleR
 
+Github
+
+```r
+library(devtools)
+install_github("voltek62/RsparkleR")
+```
+
 ## 3 examples
 
 ### step1_create.R

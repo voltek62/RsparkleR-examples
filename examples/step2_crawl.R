@@ -30,7 +30,8 @@ checkAll <- sparkler.check(vm,pattern,crawlid,topN)
 #if finished ; delete VM
 if (checkAll==TRUE) {
 
-  crawlDF <- sparkler.read.csv(vm, pattern, crawlid, topN, extracted=TRUE)
+  # Test : no need to get all extracted text
+  crawlDF <- sparkler.read.csv(vm, pattern, crawlid, topN, extracted=FALSE)
 
   # precalculated data
   # TODO : Response Time
